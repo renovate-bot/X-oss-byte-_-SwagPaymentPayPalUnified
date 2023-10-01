@@ -79,7 +79,7 @@ default:
 .phpunit_base:
     stage: phpunit
     services:
-        - name: mysql:5.7
+        - name: mysql:8.1
           alias: mysql
           variables:
               MYSQL_RANDOM_ROOT_PASSWORD: "true"
