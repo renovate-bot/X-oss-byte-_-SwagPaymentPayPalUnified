@@ -32,7 +32,7 @@ x-playwright-test-dependencies: &playwright-test-dependencies
 
 services:
     mysql:
-        image: mysql:8.1
+        image: mysql:8.2
         environment:
             MYSQL_RANDOM_ROOT_PASSWORD: "true"
             MYSQL_USER: "${DB_USER}"
